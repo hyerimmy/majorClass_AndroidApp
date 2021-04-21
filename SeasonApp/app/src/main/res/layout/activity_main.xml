@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신이 좋아하는 계절은?"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/Rspring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="봄" />
+
+        <RadioButton
+            android:id="@+id/Rsummer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여름" />
+
+        <RadioButton
+            android:id="@+id/Rfall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가을" />
+
+        <RadioButton
+            android:id="@+id/Rwinter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="겨울" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/BtnSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택" />
+
+    <ImageView
+        android:id="@+id/ImgSeason"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
